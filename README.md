@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-# To-do-App
-=======
+
+
 
 # 📋 To-Do List Application 
 
