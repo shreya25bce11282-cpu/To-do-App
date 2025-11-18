@@ -1,34 +1,5 @@
+
 # 📋 To-Do List Application 
-
-## 📝 Overview
-This is a simple and user-friendly **To-Do List desktop application** built using **Python and Tkinter**.  
-It allows users to add tasks, mark them as complete, clear all tasks, and automatically save tasks to a text file (`todo_list.txt`) so they persist even after closing the app.
-
----
-
-## ⭐ Features
-- **Add new tasks**
-- **Mark tasks as completed** (completed tasks appear greyed out)
-- **Scroll through all tasks**
-- **Clear all tasks with confirmation**
-- **Automatic save on exit**
-- **Persistent storage using a text file**
-- **Clean and responsive Tkinter GUI**
-
----
-
-## 🛠️ Technologies & Tools Used
-- **Python 3.x**
-- **Tkinter (Python’s built-in GUI toolkit)**
-- **OS module** (file handling)
-- **Regular Expressions (re module)**
-
----
-
-## 📥 Installation & Running the Project
-
-### **1. Clone or Download the Project**
-# 📋 To-Do List Application (Tkinter)
 
 ## 📝 Overview
 This is a simple and user-friendly **To-Do List desktop application** built using **Python and Tkinter**.  
