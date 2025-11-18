@@ -31,7 +31,7 @@ It allows users to add tasks, mark them as complete, clear all tasks, and automa
 ## 📥 Installation & Running the Project
 
 ### **1. Clone or Download the Project**
-git clone https://github.com/shreya25bce11282-cpu/todo-tkinter.git
+git clone https://github.com/shreya25bce11282-cpu/To-do-App.git
 
 (or download the `.py` file directly)
 
