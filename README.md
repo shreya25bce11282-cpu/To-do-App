@@ -41,11 +41,11 @@ python --version
 
 
 ### **3. Run the Application**
-Navigate to the folder containing the script:
-cd todo-tkinter
+Navigate to the project folder: cd VITYARTHI
+Run the Python application:
+python todo2.py
 
-Run it:
-python todo.py
+
 
 
 ---
