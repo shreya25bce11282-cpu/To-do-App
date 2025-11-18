@@ -42,6 +42,7 @@ python --version
 
 ### **3. Run the Application**
 Navigate to the project folder: cd VITYARTHI
+
 Run the Python application:
 python todo2.py
 
