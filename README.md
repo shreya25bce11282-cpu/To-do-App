@@ -1,4 +1,4 @@
-# 📋 To-Do List Application (Tkinter)
+# 📋 To-Do List Application 
 
 ## 📝 Overview
 This is a simple and user-friendly **To-Do List desktop application** built using **Python and Tkinter**.  
