@@ -1,61 +1,123 @@
-📋 To-Do List Application
-Overview of the Project
-This project is a simple, desktop To-Do List application built using Python and the Tkinter library for the graphical user interface (GUI). It provides a straightforward way for users to manage their daily tasks. Tasks are persisted (saved) to a local file named todo_list.txt upon exit and automatically loaded when the application starts.
+# 📋 To-Do List Application (Tkinter)
 
-Features
-1. Add Tasks: Users can quickly add new tasks via an input field and an "Add Task" button.
+## 📝 Overview
+This is a simple and user-friendly **To-Do List desktop application** built using **Python and Tkinter**.  
+It allows users to add tasks, mark them as complete, clear all tasks, and automatically save tasks to a text file (`todo_list.txt`) so they persist even after closing the app.
 
-2. View Tasks: All current tasks are displayed in a scrollable listbox.
+---
 
-3. Persistence: Tasks are automatically loaded from todo_list.txt on startup and saved back to the file on exit.
+## ⭐ Features
+- **Add new tasks**
+- **Mark tasks as completed** (completed tasks appear greyed out)
+- **Scroll through all tasks**
+- **Clear all tasks with confirmation**
+- **Automatic save on exit**
+- **Persistent storage using a text file**
+- **Clean and responsive Tkinter GUI**
 
-4. Mark Complete: Users can select a task and mark it as complete, visually greying it out in the list to distinguish completed items. The task is internally prepended with [DONE].
+---
 
-5. Clear All: Option to permanently delete all tasks from the list and the save file.
+## 🛠️ Technologies & Tools Used
+- **Python 3.x**
+- **Tkinter (Python’s built-in GUI toolkit)**
+- **OS module** (file handling)
+- **Regular Expressions (re module)**
 
-6. Exit & Save: A dedicated button to ensure the current task list is saved before closing the application.
+---
 
-Technologies/Tools Used
+## 📥 Installation & Running the Project
 
-Component,Tool/Library,Description
-Programming Language,Python 3,The core language used for the application logic.
-GUI Library,Tkinter,Python's standard GUI toolkit for creating the desktop interface.
-File System Interaction,os module,Used for checking file existence and interacting with the local file system.
-String Operations,re module,"Used for regular expressions, specifically to update the task marker from [ ] to [DONE]."
+### **1. Clone or Download the Project**
+# 📋 To-Do List Application (Tkinter)
 
-Steps to Install & Run the Project
-1. Prerequisites: Ensure you have Python 3 installed on your system. Tkinter is typically included with standard Python installations.
+## 📝 Overview
+This is a simple and user-friendly **To-Do List desktop application** built using **Python and Tkinter**.  
+It allows users to add tasks, mark them as complete, clear all tasks, and automatically save tasks to a text file (`todo_list.txt`) so they persist even after closing the app.
 
-2. Save the Code: Save the provided code as a Python file (e.g., todo_app.py).
+---
 
-3. Run the Application: Open your terminal or command prompt, navigate to the directory where you saved the file, and execute the following command:
-4. python todo_app.py
+## ⭐ Features
+- **Add new tasks**
+- **Mark tasks as completed** (completed tasks appear greyed out)
+- **Scroll through all tasks**
+- **Clear all tasks with confirmation**
+- **Automatic save on exit**
+- **Persistent storage using a text file**
+- **Clean and responsive Tkinter GUI**
 
-5. The To-Do List GUI window should open.
-  
-      Instructions for Testing
-1. Adding a Task: Type a description (e.g., "Buy groceries") into the entry field and click "Add Task". The task should appear in the list with [ ] at the start.
+---
 
-2. Persistence Test:
+## 🛠️ Technologies & Tools Used
+- **Python 3.x**
+- **Tkinter (Python’s built-in GUI toolkit)**
+- **OS module** (file handling)
+- **Regular Expressions (re module)**
 
-Add a few tasks.
+---
 
-Click the "Exit & Save" button.
+## 📥 Installation & Running the Project
 
-Rerun the application (python todo_app.py). The previously added tasks should load automatically.
+### **1. Clone or Download the Project**
+git clone https://github.com/shreya25bce11282-cpu/todo-tkinter.git
 
-3. Marking Complete:
+(or download the `.py` file directly)
 
-Click on a task in the listbox to select it.
+### **2. Make sure Python is installed**
+Check version:
+python --version
 
-Click the "Mark Complete" button.
 
-The task should change color (e.g., grey) and be prefixed with [DONE].
+### **3. Run the Application**
+Navigate to the folder containing the script:
+cd todo-tkinter
 
-4. Error Handling:
+Run it:
+python todo.py
 
-Try clicking "Add Task" with an empty entry field; a warning message should appear.
 
-Try clicking "Mark Complete" without selecting a task; an error message should appear.
+---
 
-5. Clearing Tasks: Click the "Clear All" button and confirm. The list should become empty, and the todo_list.txt file should be emptied upon exit.
+## 🧪 Testing Instructions
+
+### ✔ Test Case 1 — Add a Task
+1. Type a task in the input box.  
+2. Click **"Add Task"**.  
+3. Task should appear in the list as:  
+   `[ ] Task name`
+
+### ✔ Test Case 2 — Mark a Task Complete
+1. Select a task.
+2. Click **"Mark Complete"**.
+3. The task should change to:  
+   `[DONE] Task name`  
+   And turn grey.
+
+### ✔ Test Case 3 — Empty Input Warning
+1. Leave input box empty.
+2. Click **"Add Task"**.
+3. A warning popup should appear.
+
+### ✔ Test Case 4 — Clear All Tasks
+1. Click **"Clear All"**.
+2. Confirm when the popup appears.
+3. List should become empty.
+
+### ✔ Test Case 5 — Persistent Save
+1. Add tasks.
+2. Click **"Exit & Save"**.
+3. Restart the app.
+4. All previously added tasks should appear again.
+
+---
+
+## 📸 Screenshots 
+
+<img width="1920" height="1080" alt="Screenshot (129)" src="https://github.com/user-attachments/assets/412e478c-ba66-4c51-95c5-db44f7a74ce5" />
+<img width="1920" height="1080" alt="Screenshot (130)" src="https://github.com/user-attachments/assets/2bfd4e0a-0320-42d5-b8d5-82c63559ec71" />
+<img width="1920" height="1080" alt="Screenshot (131)" src="https://github.com/user-attachments/assets/e23944c7-0b6f-4016-8d36-5f29e0ee2277" />
+<img width="1920" height="1080" alt="Screenshot (132)" src="https://github.com/user-attachments/assets/12d58511-6bbf-433d-a816-91a57a24549a" />
+<img width="1920" height="1080" alt="Screenshot (133)" src="https://github.com/user-attachments/assets/0cb38ca1-83f0-47c3-93dc-e762609cbecd" />
+
+
+
+
