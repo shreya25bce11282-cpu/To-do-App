@@ -3,7 +3,6 @@ from tkinter import messagebox #Specifically imports the messagebox submodule fo
 import os #Imports the os (Operating System) module, which allows the script to interact with the file system, specifically to check if the todo_list.txt file already exists.
 import re # Imports the regular expressions module to clean up or search within task text strings
 
-
 TODO_FILE = "todo_list.txt" #Sets the file name where tasks will be stored persistently on disk.
 
 def load_tasks():
@@ -17,7 +16,6 @@ def save_tasks(tasks):
     with open(TODO_FILE, 'w') as f: #Opens the file for writing (overwriting).
         for task in tasks: #Loops through the task list, writing each one on a new line.
             f.write(task + '\n')
-
 
 
 class TodoApp:
@@ -73,17 +71,12 @@ class TodoApp:
         complete_button.pack(side=tk.LEFT, padx=10)
 
         
-
         clear_button = tk.Button(button_frame, text="Clear All", command=self.clear_all_tasks, bg='#C2F0FC') #Clears all tasks from the list
         clear_button.pack(side=tk.LEFT, padx=10)
 
         exit_button = tk.Button(button_frame, text="Exit & Save", command=self.exit_app, bg='#FF8C94') #Saves tasks and exits the app
         exit_button.pack(side=tk.LEFT, padx=10)
-
-        
-
-       
-
+            
     # GUI Action Methods 
     #Clears the listbox and re-populates it with tasks from the list.
     def refresh_task_list(self):
