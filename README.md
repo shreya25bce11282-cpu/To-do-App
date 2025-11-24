@@ -86,13 +86,19 @@ python todo2.py
 
 ## 📸 Screenshots 
 
-<img width="1920" height="1080" alt="Screenshot (129)" src="https://github.com/user-attachments/assets/412e478c-ba66-4c51-95c5-db44f7a74ce5" />
-<img width="1920" height="1080" alt="Screenshot (130)" src="https://github.com/user-attachments/assets/2bfd4e0a-0320-42d5-b8d5-82c63559ec71" />
-<img width="1920" height="1080" alt="Screenshot (131)" src="https://github.com/user-attachments/assets/e23944c7-0b6f-4016-8d36-5f29e0ee2277" />
-<img width="1920" height="1080" alt="Screenshot (132)" src="https://github.com/user-attachments/assets/12d58511-6bbf-433d-a816-91a57a24549a" />
-<img width="1920" height="1080" alt="Screenshot (133)" src="https://github.com/user-attachments/assets/0cb38ca1-83f0-47c3-93dc-e762609cbecd" />
+<img width="628" height="543" alt="Screenshot 2025-11-24 164721" src="https://github.com/user-attachments/assets/e7ef4c9e-1911-4dae-8310-49baea69ac99" />
+<img width="637" height="541" alt="Screenshot 2025-11-24 164850" src="https://github.com/user-attachments/assets/a285b035-d0a2-4c5e-a754-6fa4fdf928ab" />
+<img width="629" height="535" alt="Screenshot 2025-11-24 164914" src="https://github.com/user-attachments/assets/d1ac46c7-aa26-4887-a57c-fbb45ae08ee1" />
+<img width="991" height="538" alt="Screenshot 2025-11-24 165154" src="https://github.com/user-attachments/assets/ff73ece2-68f1-4cce-b2e9-5ae3bf8fcd86" />
+<img width="1003" height="535" alt="Screenshot 2025-11-24 164941" src="https://github.com/user-attachments/assets/ed161fae-f841-4cbb-b84e-4426f0f0a8f3" />
 
 
 
 
->>>>>>> 765f5749ac5c36c13b1adaba28a79984e1617d60
+
+
+
+
+
+
+
