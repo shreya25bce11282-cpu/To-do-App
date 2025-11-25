@@ -1,0 +1,5 @@
+[DONE] Buy groceries
+[DONE] Complete assignment
+[ ] Complete project
+[ ] Wish friend happy birthday
+[ ] Debug code
