@@ -1,4 +1,4 @@
-# 5.2 Problem Statement & Scope
+# Problem Statement & Scope
 
 ## 🧩 Problem Statement
 Many people struggle to stay organized and track their daily tasks.  
